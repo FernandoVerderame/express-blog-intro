@@ -13,6 +13,9 @@ const port = process.env.PORT || 3000;
 // Posts controller
 const posts = require('./controllers/posts.js');
 
+// Definisco la cartella public
+app.use(express.static('public'));
+
 // Rotta base
 app.get('/', (req, res) => {
     res.end(`<h1>Benvenuto nel mio blog!</h1>`);
