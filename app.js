@@ -1,3 +1,6 @@
+// Importo dotenv
+require("dotenv").config();
+
 // Importo express
 const express = require('express');
 
