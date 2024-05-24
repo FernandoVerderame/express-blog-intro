@@ -11,47 +11,47 @@
         ]
     },
     {
-        "title": "Ricetta della Torta di Mele",
-        "description": "Una deliziosa ricetta per preparare una torta di mele fatta in casa.",
-        "image": "torta_di_mele.jpg",
+        "title": "Scoprendo il Giappone",
+        "description": "Un'avventura tra le tradizioni e la modernità del Giappone.",
+        "image": "scoprendo_giappone.jpg",
         "tags": [
-            "cucina",
-            "dolci",
-            "ricetta",
-            "mele"
-        ]
-    },
-    {
-        "title": "Guida all'Escursionismo",
-        "description": "Consigli e suggerimenti per una perfetta escursione in montagna.",
-        "image": "escursionismo.jpg",
-        "tags": [
-            "sport",
-            "natura",
-            "escursionismo",
+            "viaggio",
+            "Giappone",
+            "cultura",
             "avventura"
         ]
     },
     {
-        "title": "Lezioni di Programmazione JavaScript",
-        "description": "Introduzione e guida avanzata alla programmazione in JavaScript.",
-        "image": "programmazione_js.jpg",
+        "title": "Le Meraviglie della Grecia",
+        "description": "Un viaggio attraverso la storia e i paesaggi mozzafiato della Grecia.",
+        "image": "meraviglie_grecia.jpg",
         "tags": [
-            "programmazione",
-            "JavaScript",
-            "coding",
-            "tutorial"
+            "viaggio",
+            "Grecia",
+            "storia",
+            "paesaggi"
         ]
     },
     {
-        "title": "Arte Contemporanea",
-        "description": "Una panoramica sulle tendenze e gli artisti dell'arte contemporanea.",
-        "image": "arte_contemporanea.jpg",
+        "title": "Esplorando l'Australia",
+        "description": "Un'escursione tra la natura selvaggia e le città vibranti dell'Australia.",
+        "image": "esplorando_australia.jpg",
         "tags": [
-            "arte",
-            "contemporanea",
-            "cultura",
-            "mostre"
+            "viaggio",
+            "Australia",
+            "natura",
+            "avventura"
+        ]
+    },
+    {
+        "title": "La Magia dell'Islanda",
+        "description": "Un viaggio tra geyser, vulcani e aurore boreali in Islanda.",
+        "image": "magia_islanda.jpg",
+        "tags": [
+            "viaggio",
+            "Islanda",
+            "natura",
+            "avventura"
         ]
     }
 ]
