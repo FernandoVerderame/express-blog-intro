@@ -1,4 +1,4 @@
-const { readJSON } = require("../utils");
+const { readJSON, writeJSON } = require("../utils");
 
 module.exports = {
     get: (req, res) => {
@@ -14,7 +14,7 @@ module.exports = {
                             <p>${description}</p>
                             <ul>
                     `;
-                    tags.forEach(i => html += `<li>${i}</li>`);
+                    tags.forEach(t => html += `<li>${t}</li>`);
                     html += `
                             </ul>
                         </div>
@@ -27,5 +27,10 @@ module.exports = {
                 res.json(posts);
             }
         })
+    },
+    post: (req, res) => {
+        const posts = readJSON('posts');
+        writeJSON('posts', [...posts, req.body]);
+        res.send('Post effettuato correttamente!')
     }
 }
