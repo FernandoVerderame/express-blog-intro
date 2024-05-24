@@ -15,6 +15,9 @@ app.get('/', (req, res) => {
     res.send(`<h1>Benvenuto nel mio blog!</h1>`);
 });
 
+// Rotta dei post
+app.get('/posts', posts);
+
 // Avvio il server
 app.listen(port, () => {
     console.log(`Server avviato su http://localhost:${port}`);
