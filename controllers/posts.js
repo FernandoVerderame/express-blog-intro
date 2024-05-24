@@ -10,7 +10,7 @@ module.exports = {
                     html += `
                         <div>
                             <h2>${title}</h2>
-                            <img width="100" height="100" src="/${image}"/>
+                            <img width="300" height="200" src="/${image}"/>
                             <p>${description}</p>
                             <ul>
                     `;
