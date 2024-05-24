@@ -16,13 +16,19 @@ const posts = require('./controllers/posts.js');
 // Definisco la cartella public
 app.use(express.static('public'));
 
+// Middleware
+app.use(express.json());
+
 // Rotta base
 app.get('/', (req, res) => {
     res.end(`<h1>Benvenuto nel mio blog!</h1>`);
 });
 
-// Rotta dei post
+// Rotta dei post in GET
 app.get('/posts', posts.get);
+
+// Rotta dei post in POST
+app.post('/posts', posts.post);
 
 // Avvio il server
 app.listen(port, () => {
