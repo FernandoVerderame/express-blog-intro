@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Viaggio in Italia",
+        "description": "Un resoconto del mio viaggio attraverso le bellissime città italiane.",
+        "image": "viaggio_in_italia.jpg",
+        "tags": [
+            "viaggio",
+            "Italia",
+            "turismo",
+            "cultura"
+        ]
+    },
+    {
+        "title": "Scoprendo il Giappone",
+        "description": "Un'avventura tra le tradizioni e la modernità del Giappone.",
+        "image": "scoprendo_giappone.jpg",
+        "tags": [
+            "viaggio",
+            "Giappone",
+            "cultura",
+            "avventura"
+        ]
+    },
+    {
+        "title": "Le Meraviglie della Grecia",
+        "description": "Un viaggio attraverso la storia e i paesaggi mozzafiato della Grecia.",
+        "image": "meraviglie_grecia.jpg",
+        "tags": [
+            "viaggio",
+            "Grecia",
+            "storia",
+            "paesaggi"
+        ]
+    },
+    {
+        "title": "Esplorando l'Australia",
+        "description": "Un'escursione tra la natura selvaggia e le città vibranti dell'Australia.",
+        "image": "esplorando_australia.jpg",
+        "tags": [
+            "viaggio",
+            "Australia",
+            "natura",
+            "avventura"
+        ]
+    },
+    {
+        "title": "La Magia dell'Islanda",
+        "description": "Un viaggio tra geyser, vulcani e aurore boreali in Islanda.",
+        "image": "magia_islanda.jpg",
+        "tags": [
+            "viaggio",
+            "Islanda",
+            "natura",
+            "avventura"
+        ]
+    }
+]
