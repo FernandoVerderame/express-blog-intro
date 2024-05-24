@@ -11,11 +11,11 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Posts controller
-const { posts } = require('./controllers/posts.js');
+const posts = require('./controllers/posts.js');
 
 // Rotta base
 app.get('/', (req, res) => {
-    res.send(`<h1>Benvenuto nel mio blog!</h1>`);
+    res.end(`<h1>Benvenuto nel mio blog!</h1>`);
 });
 
 // Rotta dei post
