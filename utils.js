@@ -11,6 +11,13 @@ const readJSON = (fileName) => {
     return JSON.parse(json);
 }
 
+// Scrittura file
+const writeJSON = (fileName, data) => {
+    const filePath = path.join(__dirname, 'db', `${fileName}.json`);
+    const json = JSON.stringify(data);
+    fs.writeFileSync(filePath, json);
+}
 module.exports = {
-    readJSON
+    readJSON,
+    writeJSON
 }
